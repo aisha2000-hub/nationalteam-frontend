@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 
 
 function App() {
-  return <div className="App"></div>;
+  return <div className="App">
+    <h1>Homepage</h1>
+    <Link to="/nationalteam">Hier geht's zum Nationalteam</Link>
+  </div>;
 }
 
 
