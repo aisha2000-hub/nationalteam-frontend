@@ -1,7 +1,7 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
-export default function PlayList() {
+export default function PlayerList() {
   const [players, setPlayers] = useState([]);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ export default function PlayList() {
 
   return (
     <div>
-      <h1>Playerlist</h1>
+      <h1>PlayerList</h1>
       {JSON.stringify(players)}
     </div>
   );
